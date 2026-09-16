@@ -10,3 +10,5 @@ src/
 ├── modules/
 ├── app.module.ts
 └── main.ts
+
+do not add barrel/index.ts re-export files inside modules/ (e.g. modules/health/index.ts). import directly from the source file (e.g. `@/modules/health/health.module`).
